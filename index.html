@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Author: Emily Black, 03/21/17 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Picir</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/type-it.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<span class="type-it" style="color:#490000;"></span>
+	</div>
+
+	<script>
+		var first = "Welcome,";
+		var second = "This is<strong> Picir's</strong> main webpage.";
+		var third = "Get to know about <a href='about.html'>Picir</a>.";
+		var fourth = "<a href='https://github.com/razorapple'>GitHub</a> • <a href='https://discord.gg/XGkwBq'>Discord Server</a> • <a href='https://instagram.com/latvijasbildes'>Instagram</a> • <a href='https://stats.uptimerobot.com/g2Eloh98q'>UptimeRobot</a>";
+		$('.type-it').typeIt({
+			strings: [first, second, third, fourth]
+		});
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Author: Emily Black, 03/21/17 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Picir</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/type-it.js"></script>
+</head>
+<body>
+
+
+	<div class="container">
+		<span class="type-it" style="color:#490000;"></span>
+	</div>
+
+	<script>
+		var first = "Picir is a simple yet powerfull ShareX uploader! We ❤ js. Picir is a private uploader. Maintained by <a href='https://instagram.com/latvijasbildes'>latvijasbildes</a> on instagram.";
+		var third = "Want to go back <a href='index.html'>home</a>?";
+		$('.type-it').typeIt({
+			strings: [first, third]
+		});
+	</script>
+	
+</body>
+</html>
